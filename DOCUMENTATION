@@ -1,0 +1,11 @@
+= Template
+
+There are two types of special character sequences that are valid in a template file: variables and directives. These are detailed below.
+
+== Variables
+
+The start of a variable declaration is denoted by "${", and the end of the variable is denoted by a "}" (all without the quotes). Variables can occur at any point in a line.
+
+== Directives
+
+A directive must be on its own line. The line must start with an "@", and the directive name must immediately follow it. Directives can take space separated arguments after it. A directive ends at the end of the line with the @
